@@ -78,7 +78,7 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+##Author
 
 **Kaviya E**
 
