@@ -51,15 +51,11 @@ Email-Spam-Detection/
 pip install -r requirements.txt
 ```
 
----
-
 ## ▶️ Run the Application
 
 ```bash
 streamlit run app.py
 ```
-
----
 
 ## Results
 
@@ -67,7 +63,19 @@ streamlit run app.py
 - Compared four machine learning models
 - Selected the best model based on performance metrics
 
----
+##  Application Screenshots
+
+### Home Page
+
+![Home Page](home_page.png)
+
+### Spam Prediction
+
+![Spam Prediction](spam_prediction.png)
+
+### Not Spam Prediction
+
+![Not Spam Prediction](not_spam_prediction.png)
 
 ## Future Improvements
 
@@ -75,8 +83,6 @@ streamlit run app.py
 - Add support for multiple languages
 - Improve prediction explanations
 - Integrate deep learning models
-
----
 
 ##Author
 
