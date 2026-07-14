@@ -1,12 +1,10 @@
 # 📧 Email Spam Detection
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a Machine Learning-based web application that classifies emails as **Spam** or **Not Spam**. It uses Natural Language Processing (NLP) techniques and compares multiple machine learning models to identify the best-performing classifier. The application is built with **Streamlit** for an interactive user interface.
 
----
-
-## ✨ Features
+## Features
 
 - Detects Spam and Not Spam emails
 - Cleans and preprocesses email text
@@ -15,9 +13,7 @@ This project is a Machine Learning-based web application that classifies emails 
 - Interactive Streamlit web application
 - Displays model comparison and confusion matrix
 
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
@@ -27,9 +23,7 @@ This project is a Machine Learning-based web application that classifies emails 
 - Matplotlib
 - NLTK
 
----
-
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 - Multinomial Naive Bayes
 - Logistic Regression
@@ -38,10 +32,7 @@ This project is a Machine Learning-based web application that classifies emails 
 
 **Best Performing Model:** Linear SVM
 
----
-
-## 📂 Project Structure
-
+## Project Structure
 ```
 Email-Spam-Detection/
 │── app.py
@@ -54,10 +45,7 @@ Email-Spam-Detection/
 │── requirements.txt
 │── README.md
 ```
-
----
-
-## ⚙️ Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
@@ -73,7 +61,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Results
+## Results
 
 - High accuracy in spam email classification
 - Compared four machine learning models
@@ -81,7 +69,7 @@ streamlit run app.py
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Deploy the application online using Streamlit Community Cloud
 - Add support for multiple languages
