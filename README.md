@@ -63,7 +63,7 @@ streamlit run app.py
 - Compared four machine learning models
 - Selected the best model based on performance metrics
 
-##  Application Screenshots
+## 📸 Application Screenshots
 
 ### Home Page
 
@@ -75,7 +75,7 @@ streamlit run app.py
 
 ### Not Spam Prediction
 
-![Not Spam Prediction](Not spam_prediction.png)
+![Not Spam Prediction](not_spam_prediction.png)
 
 ## Future Improvements
 
