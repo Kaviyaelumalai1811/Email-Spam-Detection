@@ -1,129 +1,100 @@
-\# Email Spam Detection System
+# 📧 Email Spam Detection
 
-\## Overview
+## 📌 Project Overview
 
-The Email Spam Detection System is a Machine Learning project developed using Python. It classifies email messages as \*\*Spam\*\* or \*\*Not Spam\*\* using Natural Language Processing (NLP) techniques and machine learning algorithms.
+This project is a Machine Learning-based web application that classifies emails as **Spam** or **Not Spam**. It uses Natural Language Processing (NLP) techniques and compares multiple machine learning models to identify the best-performing classifier. The application is built with **Streamlit** for an interactive user interface.
 
-\## Objective
+---
 
-The objective of this project is to identify spam emails automatically by analyzing the content of an email.
+## ✨ Features
 
-\## Technologies Used
+- Detects Spam and Not Spam emails
+- Cleans and preprocesses email text
+- Uses TF-IDF for feature extraction
+- Trains and compares multiple ML models
+- Interactive Streamlit web application
+- Displays model comparison and confusion matrix
 
-\- Python
+---
 
-\- Pandas
+## 🛠️ Technologies Used
 
-\- NumPy
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- NLTK
 
-\- Scikit-learn
+---
 
-\- NLTK
+## 🤖 Machine Learning Models
 
-\- Streamlit
+- Multinomial Naive Bayes
+- Logistic Regression
+- Linear SVM
+- Random Forest
 
-\- Matplotlib
+**Best Performing Model:** Linear SVM
 
-\## Machine Learning Workflow
+---
 
-1\. Data Collection
-
-2\. Data Preprocessing
-
-3\. Feature Engineering using TF-IDF
-
-4\. Train-Test Split
-
-5\. Model Training
-
-6\. Model Comparison
-
-7\. Best Model Selection
-
-8\. Model Evaluation
-
-9\. Streamlit Application
-
-\## Machine Learning Models Compared
-
-\- Multinomial Naive Bayes
-
-\- Logistic Regression
-
-\- Linear SVM
-
-\- Random Forest
-
-\## Best Performing Model
-
-\- \*\*Model:\*\* Linear SVM
-
-\- \*\*Accuracy:\*\* 98.14%
-
-\## Features
-
-\- Cleans and preprocesses email text
-
-\- Converts text into TF-IDF features
-
-\- Compares multiple machine learning models
-
-\- Predicts whether an email is Spam or Not Spam
-
-\- User-friendly Streamlit interface
-
-\- Confusion Matrix visualization
-
-\- Model Comparison Graph
-
-\## Project Structure
+## 📂 Project Structure
 
 ```
-
-emailspamdetect/
-
+Email-Spam-Detection/
 │── app.py
-
-│── train\_model.py
-
-│── email\_text.csv
-
-│── spam\_model.pkl
-
-│── tfidf\_vectorizer.pkl
-
-│── confusion\_matrix.png
-
-│── model\_comparison.png
-
+│── train_model.py
+│── spam_model.pkl
+│── tfidf_vectorizer.pkl
+│── email_text.csv
+│── confusion_matrix.png
+│── model_comparison.png
 │── requirements.txt
-
 │── README.md
-
 ```
 
-\## How to Run
+---
 
-Install the required libraries:
+## ⚙️ Installation
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
-Run the application:
+---
+
+## ▶️ Run the Application
 
 ```bash
-
-python -m streamlit run app.py
-
+streamlit run app.py
 ```
 
-\## Future Improvements
+---
 
-\- Train the model using a larger email dataset.
+## 📊 Results
 
-\- Improve prediction for unseen real-world emails.
+- High accuracy in spam email classification
+- Compared four machine learning models
+- Selected the best model based on performance metrics
 
+---
+
+## 🚀 Future Improvements
+
+- Deploy the application online using Streamlit Community Cloud
+- Add support for multiple languages
+- Improve prediction explanations
+- Integrate deep learning models
+
+---
+
+## 👩‍💻 Author
+
+**Kaviya E**
+
+Computer Science and Engineering Student
+
+Aspiring Data Scientist
 \- Enhance the user interface with additional features.
